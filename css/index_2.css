@@ -1,0 +1,54 @@
+.main {
+    column-count:2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-gap: 0;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+
+
+}
+.box{
+    padding: 1px 4px;
+}
+.pic {
+    position: relative;
+    border: 2px solid #fff;
+}
+.img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.pImg {
+    position: absolute;
+    bottom: 30px;
+    left: 3px;
+    width: 30px;
+    height: 30px;
+}
+.intro {
+    font-size: 11px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fff;
+    color: #6f6f6f;
+}
+.type {
+    float: left;
+    margin-left: 5px;
+}
+.position {
+    float: right;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.position:before {
+    content: "";
+    display: block;
+    float: left;
+    width: 7px;
+    height: 30px;
+    background: url("../images/position.png") no-repeat center;
+    background-size: contain;
+}

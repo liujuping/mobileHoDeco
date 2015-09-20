@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: "微软雅黑", "Microsoft Yahei";
+}
+.header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: #82aaa5;
+    color: #fff;
+    box-shadow: 0 0 5px #000;
+}
+.title {
+    text-align: center;
+    line-height: 44px;
+    font-size: 24px;
+}
+.back {
+    width: 8px;
+    height: 44px;
+    position: absolute;
+    left: 20px;
+    background: url("../images/back.png") no-repeat center;
+    background-size: contain;
+}
+.add {
+    width: 15px;
+    height: 44px;
+    position: absolute;
+    left: 20px;
+    background: url("../images/add.png") no-repeat center;
+    background-size: contain;
+}
+.other {
+    width: 25px;
+    height: 44px;
+    top: 0;
+    position: absolute;
+    right: 20px;
+    background: url("../images/other.png") no-repeat center;
+    background-size: contain;
+}
+.other2 {
+    width: 25px;
+    height: 44px;
+    top: 0;
+    position: absolute;
+    right: 20px;
+    background: url("../images/other2.png") no-repeat center;
+    background-size: contain;
+}
+.content {
+    background-color: #e4e7ed;
+    padding: 54px 0 70px 0;
+}
+.top {
+    height: 20px;
+    padding-bottom: 10px;
+}
+.topContent {
+    float: right;
+    margin-right: 24px;
+}
+.first {
+    width: 20px;
+    height: 20px;
+    float: left;
+    background: url("../images/29.png") no-repeat center;
+    background-size: cover;
+    margin-right: 20px;
+}
+.second {
+    width: 20px;
+    height: 20px;
+    float: left;
+    background: url("../images/293.png") no-repeat center;
+    background-size: cover;
+}
+.footer {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    background-color: #82aaa5;
+}
+.footerItem {
+    float: left;
+    width: 33.33333333333333333333333333333%;
+    height: 32px;
+    margin-top: 9px;
+}
+.footerItem:before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    height: 32px;
+    width: 30px;
+
+}
+.footerItem1:before {
+
+    background: url("../images/16.png") no-repeat 0 center;
+    background-size: cover;
+
+}
+.footerItem2:before {
+    background: url("../images/16.png") no-repeat -108px center;
+    background-size: cover;
+}
+.footerItem3:before {
+    background: url("../images/16.png") no-repeat -212px center;
+    background-size: cover;
+}
+.close {
+    width: 12px;
+    height: 44px;
+    position: absolute;
+    left: 20px;
+    background: url("../images/关闭页面图标.png") no-repeat center;
+    background-size: contain;
+}
+.hide {
+    display: none;
+}

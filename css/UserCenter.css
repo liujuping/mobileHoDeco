@@ -1,0 +1,100 @@
+.content {
+    padding: 44px 0 50px;
+    background-color: #e4e7ed;
+}
+.title {
+    font-size: 16px;
+}
+.userImg {
+    position: relative;
+    height: 80px;
+    padding: 20px 0;
+    background: url("../images/bg3.png") no-repeat center;
+}
+.peopleImg {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+.userIntro {
+    height: 56px;
+    text-align: center;
+    color: #62918c;
+    background: url("../images/192bg.png") no-repeat center;
+}
+.userName {
+    font-size: 24px;
+    height: 36px;
+    line-height: 36px;
+}
+.userPlace {
+    font-size: 12px;
+    width: 100px;
+    height: 20px;
+    line-height: 18px;
+    margin: 0 auto;
+}
+.userPlace:before {
+    content: "";
+    width: 6px;
+    height: 18px;
+    display: block;
+    float: left;
+    background: url("../images/position2.png") no-repeat center;
+    background-size: contain;
+}
+.box {
+    padding-top: 14px;
+}
+.box:last-child {
+    padding-bottom: 14px;
+}
+.item {
+    height: 48px;
+    background-color: #fff;
+    margin-bottom: 2px;
+}
+.icon {
+    float: left;
+    width: 30px;
+    height: 48px;
+    background: url("../images/141.png") no-repeat 0 8px;
+    background-size: cover;
+    margin-left: 20px;
+}
+.icon2 {
+    background-position: 0 -34px;
+}
+.icon3 {
+    background-position: 0 -76px;
+}
+.icon4 {
+    background-position: 0 -126px;
+}
+.icon5 {
+    background-position: 0 -167px;
+}
+.icon6 {
+    background-position: 0 -222px;
+}
+.itemName {
+    float: left;
+    font-family: "宋体 Bold", "宋体";
+    color: #82aaa5;
+    line-height: 48px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.in {
+    float: right;
+    width: 8px;
+    height: 48px;
+    background: url("../images/in.png") no-repeat 0 9px;
+    background-size: contain;
+    margin-right: 30px;
+}
+.footerItem:last-child:before {
+    background: url("../images/im3.png") no-repeat;
+    background-size: contain;
+}

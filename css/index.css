@@ -1,0 +1,98 @@
+
+.box {
+    padding: 0 20px 20px 20px;
+}
+.box:last-child {
+    padding-bottom: 0;
+}
+.img {
+    width: 100%;
+}
+.intro {
+    position: relative;
+    height: 28px;
+}
+.box-wrap {
+    background-color: #fff;
+    font-size: 12px;
+    color: #6f6f6f;
+}
+.people {
+    position: absolute;
+    top: -36px;
+    left: 5px;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    background: url("../images/people.png") no-repeat center;
+    background-size: cover;
+}
+.peopleName {
+    float: left;
+    margin-left: 70px;
+}
+.classType {
+    float: right;
+    margin-right: 10px;
+    font-size: 10px;
+}
+.classType:before {
+    content: "";
+    display: block;
+    float: left;
+    width: 12px;
+    height: 20px;
+    background: url("../images/31.png") no-repeat 0 center;
+    background-size: contain;
+
+}
+.num {
+    position: absolute;
+    width: 120px;
+    height: 12px;
+    right: 3px;
+    top: -26px;
+    padding: 4px 10px;
+    background-color: rgba(0,0,0,0.6);
+}
+.numMain {
+    font-size: 9px;
+    line-height: 12px;
+    float: left;
+    text-align: center;
+    height: 100%;
+}
+.numMain:nth-of-type(1),
+.numMain:nth-of-type(3){
+    width: 30%;
+}
+.numMain:nth-of-type(2) {
+    width: 40%;
+}
+.numMain:nth-of-type(1):before {
+    content: "";
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: url("../images/2.png") no-repeat;
+    background-size: cover;
+}
+.numMain:nth-of-type(2):before {
+    content: "";
+    display: block;
+    float: left;
+    width: 18px;
+    height: 12px;
+    background: url("../images/2.png") no-repeat -35px center;
+    background-size: cover;
+}
+.numMain:nth-of-type(3):before {
+    content: "";
+    display: block;
+    float: left;
+    width: 15px;
+    height: 12px;
+    background: url("../images/2.png") no-repeat -77px center;
+    background-size: cover;
+}
